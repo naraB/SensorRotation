@@ -64,6 +64,7 @@ export const Main = () => {
     (s) => {
       pitch.value = -(s.y * 2.5) -2;
       roll.value = s.x * 4;
+      console.log(s)
     },
     []
   );
